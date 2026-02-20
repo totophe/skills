@@ -8,6 +8,7 @@ A collection of [Agent Skills](https://agentskills.io) for AI coding agents. Eac
 |-------|-------------|
 | [sequelize-7](sequelize-7/) | Sequelize v7 (alpha) — TypeScript-first ORM with decorator-based models, queries, associations, transactions |
 | [umzug](umzug/) | Umzug v3 — database migration runner adapted for Sequelize v7 |
+| [excel-reader](excel-reader/) | Excel file reader — list sheets, preview headers, extract rows and columns with streaming support |
 | [skill-creation](skill-creation/) | Guide for creating and structuring Agent Skills following the open standard |
 
 ## Installation
