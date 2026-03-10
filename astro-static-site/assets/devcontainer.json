@@ -1,0 +1,15 @@
+{
+  "name": "Astro Dev",
+  "image": "ghcr.io/totophe/dc-toolbelt:node24-astro",
+  "forwardPorts": [4321],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
