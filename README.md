@@ -9,14 +9,25 @@ A collection of [Agent Skills](https://agentskills.io) for AI coding agents. Eac
 | [sequelize-7](sequelize-7/) | Sequelize v7 (alpha) — TypeScript-first ORM with decorator-based models, queries, associations, transactions |
 | [umzug](umzug/) | Umzug v3 — database migration runner adapted for Sequelize v7 |
 | [excel-reader](excel-reader/) | Excel file reader — list sheets, preview headers, extract rows and columns with streaming support |
+| [astro-static-site](astro-static-site/) | Astro static site — scaffold and deploy sites with React, TypeScript, TailwindCSS on GitHub Pages |
 | [skill-creation](skill-creation/) | Guide for creating and structuring Agent Skills following the open standard |
 
 ## Installation
 
 ### Using skills.sh (recommended)
 
+Install all skills at once:
 ```bash
 npx skills add totophe/skills
+```
+
+Or install individual skills:
+```bash
+npx skills add totophe/skills/sequelize-7
+npx skills add totophe/skills/umzug
+npx skills add totophe/skills/excel-reader
+npx skills add totophe/skills/astro-static-site
+npx skills add totophe/skills/skill-creation
 ```
 
 ### Using git clone
